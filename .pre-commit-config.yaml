@@ -2,7 +2,7 @@ ci:
   autoupdate_schedule: monthly
 repos:
   - repo: https://github.com/psf/black
-    rev: 21.6b0
+    rev: 21.8b0
     hooks:
       - id: black
         exclude: ^pdm/_vendor
@@ -13,7 +13,7 @@ repos:
       - id: flake8
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.9.1
+    rev: 5.9.3
     hooks:
       - id: isort
 
